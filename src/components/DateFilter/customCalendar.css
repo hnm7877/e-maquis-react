@@ -1,0 +1,101 @@
+.react-calendar {
+  border: none !important;
+}
+
+.react-calendar__navigation {
+  margin-bottom: 0;
+}
+
+.react-calendar__tile--now {
+  background-color: transparent !important;
+}
+
+.react-calendar__navigation__prev2-button,
+.react-calendar__navigation__next2-button {
+  display: none;
+}
+
+.react-calendar__navigation__prev-button,
+.react-calendar__navigation__next-button {
+  min-width: 30px !important;
+}
+
+.react-calendar__navigation__prev-button {
+  text-align: left;
+}
+
+.react-calendar__navigation__next-button {
+  text-align: right;
+}
+
+.react-calendar__navigation__prev-button:hover,
+.react-calendar__navigation__next-button:hover,
+.react-calendar__navigation__label:hover {
+  background-color: transparent !important;
+}
+
+.react-calendar__navigation__label__labelText {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: Montserrat-SemiBold, sans-serif;
+  text-transform: capitalize;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: Montserrat-SemiBold, sans-serif;
+  color: #ccd6e0;
+  padding: 0 0.5rem;
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  opacity: 0;
+}
+
+.react-calendar__month-view__days {
+  gap: 0.05rem;
+}
+
+.react-calendar__month-view__days__day {
+  background-color: #eef1f6;
+  flex: 0 0 14% !important;
+  color: #626262;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: Montserrat-SemiBold, sans-serif;
+}
+
+.react-calendar__month-view__days__day:hover {
+  background-color: transparent;
+}
+
+.react-calendar__tile--active,
+.react-calendar__tile--hasActive {
+  background-color: var(--secondary-color) !important;
+  color: white !important;
+}
+
+.react-calendar__year-view__months,
+.react-calendar__decade-view__years {
+  gap: 0.4rem;
+  padding: 0.5rem;
+}
+
+.react-calendar__year-view__months__month,
+.react-calendar__decade-view__years__year {
+  padding: 0.5rem !important;
+  background-color: #eef1f6;
+  flex: 0 0 31% !important;
+
+  font-size: 12px;
+  font-weight: 600;
+  font-family: Montserrat-SemiBold, sans-serif;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+  border-radius: 2px;
+}

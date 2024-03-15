@@ -1,0 +1,68 @@
+.users-filter {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+/**
+ minWidth: '11.5rem',
+    maxWidth: 240,
+    background: THEME.colors.white,
+    top: '0',
+    left: '0',
+    padding: 12,
+    borderRadius: 2,
+
+*/
+
+.users-filter-list {
+  position: absolute;
+  min-width: 11.5rem;
+  max-width: 240px;
+  background: #fff;
+  top: 40px;
+  left: 0;
+  padding: 12px;
+  border-radius: 2px;
+}
+
+.users-filter--selected {
+  min-width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 0 1rem;
+}
+
+.users-filter--selected p {
+  font-size: 14px;
+}
+
+.users-filter--selected p span {
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+/* change input checbox background */
+
+.user-filter {
+  display: flex;
+  align-items: center;
+}
+
+.user-filter p {
+  margin-left: 10px;
+}
+
+.user-filter--checked p {
+  color: var(--secondary-color);
+}
+
+/* // */
+
+/* .user-filter input[type='checkbox'] {
+  margin-right: 10px;
+} */

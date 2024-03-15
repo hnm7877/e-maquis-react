@@ -1,0 +1,9 @@
+.bilan {
+  padding: 2rem;
+}
+
+.bilan-filters {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}

@@ -1,0 +1,133 @@
+.date-filter {
+  min-width: 200px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  position: relative;
+  color: #989899;
+}
+
+.date-filter-time {
+  font-size: 14px;
+}
+
+.date-filter-time__date {
+  color: var(--secondary-color);
+}
+
+.date-filter-dropdown {
+  position: absolute;
+  top: 40px;
+  background-color: #fff;
+  min-width: 100%;
+  max-width: 284px;
+  left: 0;
+  padding: 5px 10px;
+}
+
+.date-filter-dropdown-between {
+  margin: 0.5rem 0;
+}
+
+.date-filter-types {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  /* margin: 0.5rem 0; */
+  margin-bottom: 0.4rem;
+}
+
+.date-filter-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 7rem;
+  padding: 5px 10px;
+  width: auto;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.date-filter-type__default {
+  border: 1px solid var(--secondary-color);
+  color: black;
+  border-radius: 5px;
+  color: var(--secondary-color);
+}
+
+.date-filter-type__default-active {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.date-filter-type__list {
+  z-index: 1;
+  position: absolute;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  top: 1.85rem;
+  background-color: #fff;
+}
+
+.date-filter-type__list-active {
+  max-width: 7rem;
+  height: 150px;
+  transition: all 0.3s ease;
+  border: 1px solid var(--secondary-color);
+  border-top: 0;
+  font-size: 15px;
+}
+
+.date-filter-type__list-item {
+  color: var(--secondary-color);
+}
+
+/* DATE AND HOUR */
+
+.date-filter-dates {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.date-filter-dates > div {
+  width: 100%;
+}
+
+.date-filter-dates__input {
+  width: 8rem;
+  border-radius: 2px;
+  border: 1px solid var(--secondary-color);
+  padding: 0.3rem 0.5rem;
+}
+
+/* PERIOD */
+
+.date-period-labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.date-period-label {
+  background-color: #f2f2f2;
+  padding: 0.3rem 0.5rem;
+  border-radius: 2px;
+  /* color: var(--secondary-color); */
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.date-period-label--active {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
